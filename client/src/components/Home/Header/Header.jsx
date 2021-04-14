@@ -7,11 +7,11 @@ import styles from './styles.module.css';
 const Header = ({ toggle }) => (
   <div className={styles.headerContainer}>
     <div className={styles.title}>Local Voice</div>
-    <div className={styles.toggleContainer} >
+    <div className={styles.toggleContainer}>
       <span className={styles.mapViewLabel}>Map View</span>
       <label className={styles.switch}>
-        <input onClick={toggle} type='checkbox'></input>
-        <span className={styles.sliderRound}></span>
+        <input onClick={toggle} type="checkbox" />
+        <span className={styles.sliderRound} />
       </label>
       <span className={styles.listViewLabel}>List View</span>
     </div>

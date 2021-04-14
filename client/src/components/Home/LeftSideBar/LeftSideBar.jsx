@@ -41,12 +41,21 @@ const LeftSideBar = ({
             </div>
             <div className={styles.filterToggleSet}>
               <div className={styles.myIssuesFilterContainer}>
-                <button className={myIssuesFilter ? styles.myIssuesFilterOn : styles.myIssuesFilterOff} onClick={handleMyIssuesClick}>
+                <button
+                  type="button"
+                  className={myIssuesFilter ? styles.myIssuesFilterOn : styles.myIssuesFilterOff}
+                  onClick={handleMyIssuesClick}
+                >
                   <span className={styles.myIssuesLabel}>My Issues</span>
                 </button>
               </div>
               <div className={styles.watchedIssuesFilterContainer}>
-                <button className={watchedIssuesFilter ? styles.watchedIssuesFilterOn : styles.watchedIssuesFilterOff} onClick={handleWatchedIssuesClick}>
+                <button
+                  type="button"
+                  className={watchedIssuesFilter
+                    ? styles.watchedIssuesFilterOn : styles.watchedIssuesFilterOff}
+                  onClick={handleWatchedIssuesClick}
+                >
                   <span className={styles.watchedIssuesLabel}>Watched Issues</span>
                 </button>
               </div>
