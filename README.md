@@ -8,10 +8,10 @@
 *starting the app*
 1. Fill in the example config with your Google Maps Javascript API Token and your Google Civic API Token
 2. Configure the database index.js based on your MySQL user and password
-3. install dependencies by running npm install
+3. Install dependencies by running npm install
 4. npm run webpack
 5. npm start
-6. experience the app at https://localhost:3000
+6. Experience the app at https://localhost:3000
 
 *technologies used*
 - Front End: ES6, React, CSS, Google Maps API, PropTypes, Babel, Webpack
